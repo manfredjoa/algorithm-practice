@@ -8,7 +8,7 @@
 // nums2 has a length of n.
 
 const merge = (nums1, m, nums2, n) => {
-  nums1.length = nums1.length - nums2.length;
+  nums1.length = m;
 
   let nums = [...nums1, ...nums2].sort((a, b) => a - b);
 
