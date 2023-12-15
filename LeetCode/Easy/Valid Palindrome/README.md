@@ -1,4 +1,4 @@
-<a href="https://leetcode.com/problems/valid-palindrome/" target="_blank">Valid Palindrome</a>
+# Valid Palindrome
 
 <div class="elfjS" data-track-load="description_content"><p>A phrase is a <strong>palindrome</strong> if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.</p>
 
