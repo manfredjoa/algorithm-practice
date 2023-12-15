@@ -5,18 +5,18 @@ class Solution:
         area = 0
 
         while left < right:
-            containerWidth = right - left
-            containerHeight = 0
-            currentArea = 0
+            container_width = right - left
+            container_height = 0
+            current_area = 0
 
             if height[left] < height[right]:
-                containerHeight = height[left]
+                container_height = height[left]
                 left += 1
             else:
-                containerHeight = height[right]
+                container_height = height[right]
                 right -= 1
 
-            currentArea = containerHeight * containerWidth
-            area = max(area, currentArea)
+            current_area = container_height * container_width
+            area = max(area, current_area)
 
         return area
