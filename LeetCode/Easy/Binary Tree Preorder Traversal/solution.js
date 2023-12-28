@@ -1,6 +1,3 @@
-// Prompt
-// Given the root of a binary tree, return the preorder traversal of its nodes' values.
-
 const preorderTraversal = (root) => {
   const result = [];
 
