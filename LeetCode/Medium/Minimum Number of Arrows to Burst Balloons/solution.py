@@ -11,6 +11,3 @@ class Solution:
                 curr_arrow_pos = end
 
         return arrows
-
-
-print(Solution().findMinArrowShots([[1, 2], [3, 4, 5]]))
